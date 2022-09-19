@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: 9cc3e0d1700043bb8871851eedc5d989
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2573
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ae29de3dfcacf40b756e6c4d4d5b67
+      internalID: -1934840190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2362
+        width: 204
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be390c0cbcd4a51fa65f01ee6d24c93
+      internalID: 591472332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2403
+        width: 286
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9102d7c76125f0f46bdcc24d0852b9cc
+      internalID: -1476250739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2513
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9a379583fd9dc68aaee2ed8836c8bc
+      internalID: -749470526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2513
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aff47f0b61c6fda797062408b4be1ca
+      internalID: -876872134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2396
+        width: 316
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677cf340303a9df109507fb226fc5127
+      internalID: 1845325271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2459
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122bbe88489d8fa5e8e82b9c50620051
+      internalID: 857133658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2459
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34efa0c651370c56a20c910e9c38b51
+      internalID: -541236608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2404
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304a98aa58db16fcdbf190e2e6a818af
+      internalID: 1919370933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2404
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1808fcd182b908fd2918019b46eb43f4
+      internalID: 721980339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1958
+        width: 217
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84fe9e2ba37c15fb826f38c63222122
+      internalID: 1015189093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1959
+        width: 202
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350b1fbfda5066de0bb0c7edb918ccd6
+      internalID: 1098664417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-3
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1961
+        width: 161
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957d9cb10e2ff56c0924248fa94cb81f
+      internalID: -1877501209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-4
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2052
+        width: 169
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6bda4aa689c5d939916e7712ca6e8d
+      internalID: 1515872677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-6
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2079
+        width: 160
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0375311a8623d8628688bf2030a2d2c
+      internalID: 316637446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1957
+        width: 161
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76615c8738883d98da582b26b2a76353
+      internalID: -1715096230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-1
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1978
+        width: 279
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c42015657f229077a55df681308c900
+      internalID: -1373690733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1945
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2be44e990c6450bbff8796da7610d8
+      internalID: -1253856991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain-1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1634
+        width: 202
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d094c1554483f2ea3e3118ea0c9a70
+      internalID: -1637079660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain-2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1631
+        width: 170
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3768ed351ba792eb984fd30a0dcf8d9e
+      internalID: -1480111445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain-3
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1631
+        width: 159
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682129e47151b9bb1952f44f4397f5ad
+      internalID: -1705063120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain-4
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1635
+        width: 145
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6478401f8d7d767be1d3aed1c4a8bc
+      internalID: -163718096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain-5
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1631
+        width: 167
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a7505f8242ccc20af460e29d40577b
+      internalID: -1803745476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock-1
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1631
+        width: 127
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24ff796f407fd42bb048b83938d4f72
+      internalID: 699242437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-2
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1811
+        width: 297
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f769cb1bf05de3e6ba9fd749dcec9c51
+      internalID: 44820854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-3
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1644
+        width: 291
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56da39045de9d98dc829053ad0f94b8f
+      internalID: -1982226875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1473
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdf1952aa4aec11da499263259293a6
+      internalID: 466085342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1463
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf7de0c8887264a59a129edcabc24d7
+      internalID: 592443034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1463
+        width: 90
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0faf6d7847be16d9c83ef266d37944
+      internalID: -269456672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1463
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8fbe54ad3fe9f709f1a2c4e376ba1b
+      internalID: 1710595480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1459
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f3450889ce25c14babbbed50c02163
+      internalID: 1897029679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1459
+        width: 90
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a6c971132712c9b971e4f93925a993
+      internalID: -668115669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-8
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1463
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0041adc373168a57b32d95bd51f87e5
+      internalID: -234325415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: posion-1
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1465
+        width: 76
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb7e19956ef963f4abf5bfa6950ed63
+      internalID: -2114541071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock-3
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1465
+        width: 91
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b477c554c0150e0b7ad30e49cf9062
+      internalID: -1790988575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock-2
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1463
+        width: 179
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af53c0cfd05898ab926595a127c11cc
+      internalID: 134872975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fondo-1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 510
+        width: 1777
+        height: 898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f85f613cb318c72b908027d10e2603
+      internalID: -1664021490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso-1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 316
+        width: 561
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7b65a8e0adc7ffa891b0dce7a6e4ae
+      internalID: 1319857734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso-2
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 308
+        width: 325
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b0a95d3171f2cc5928f795ede0bf0c
+      internalID: 873544648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso-3
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 273
+        width: 579
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeffc35c5dfff117984b5d4d37dd04cc
+      internalID: 345475941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-atlas_41
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 83
+        width: 1312
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9881aeecc32ec060a0a4c91eed45a3d
+      internalID: -507305984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rock-1: 699242437
+      coin-8: -234325415
+      rain-5: -1803745476
+      dead-2: -1476250739
+      dead-1: 591472332
+      coin-2: 592443034
+      jump-3: -1877501209
+      coin-4: 1710595480
+      sprite-atlas_17: -1253856991
+      jump-6: 316637446
+      jump-: -1715096230
+      rain-3: -1705063120
+      sprite-atlas_9: 721980339
+      coin-6: 1897029679
+      enemy-1: -1373690733
+      rock-2: 134872975
+      jump-4: 1515872677
+      sprite-atlas_3: -749470526
+      rain-1: -1637079660
+      rock-3: -1790988575
+      coin-7: -668115669
+      coin-3: -269456672
+      sprite-atlas_0: -1934840190
+      sprite-atlas_41: -507305984
+      fondo-1: -1664021490
+      piso-3: 345475941
+      rain-2: -1480111445
+      piso-2: 873544648
+      dead-3: 1845325271
+      jump-1: 1015189093
+      sprite-atlas_4: -876872134
+      sprite-atlas_30: 507435796
+      jump-2: 1098664417
+      rain-4: -163718096
+      enemy-2: 44820854
+      piso-1: 1319857734
+      sprite-atlas_8: 1919370933
+      enemy-3: -1982226875
+      sprite-atlas_7: -541236608
+      coin-1: 466085342
+      posion-1: -2114541071
+      sprite-atlas_6: 857133658
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
