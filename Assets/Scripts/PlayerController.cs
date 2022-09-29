@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     Animator  animator;
 
+    Vector3 startPosition;
+
     const string STATE_ALIVE = "isAlive";
     const string STATE_ON_THE_GROUND = "isOnTheGround";
 
@@ -27,6 +29,11 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetBool(STATE_ALIVE, true);
         animator.SetBool(STATE_ON_THE_GROUND,true);
+        startPosition = this.transform.position;
+    }
+     public void StartGame(){
+      this.transform.position = startPosition;
+      this.rigidBody.velocity = Vector2.zero;
     }
 
     // Update is called once per frame
@@ -39,9 +46,16 @@ public class PlayerController : MonoBehaviour
 
        Debug.DrawRay(this.transform.position, Vector2.down*2.0f, Color.red);
     }
-    void FixedUpdate(){
-      if(rigidBody.velocity.x < runningSpeed){
+    void FixedUpdate()
+    {
+      if(GameManager.sharedInstance.currentGameState == GameState.inGame)
+      {
+      if(rigidBody.velocity.x < runningSpeed)
+      {
         rigidBody.velocity = new Vector2(runningSpeed, rigidBody.velocity.y);
+      }
+      }else{
+        rigidBody.velocity = new Vector2(0,rigidBody.velocity.y);
       }
     }
     void Jump(){
@@ -54,11 +68,17 @@ public class PlayerController : MonoBehaviour
     bool IsTouchingTheGround(){
       if(Physics2D.Raycast(this.transform.position, Vector2.down, 2.0f, groundMask)){
         //animator.enabled = true;
+        GameManager.sharedInstance.currentGameState = GameState.inGame;
 return true;
       }else{
         //animator.enabled = false;
 return false;
       }
+       
 
     }
+    public void Die(){
+        this.animator.SetBool(STATE_ALIVE, false);
+        GameManager.sharedInstance.GameOver();
+      }
 }
