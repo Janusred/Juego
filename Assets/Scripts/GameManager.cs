@@ -50,7 +50,8 @@ SetGameState(GameState.gameOver);
         if(newGameState == GameState.menu){
 
         }else if(newGameState == GameState.inGame){
-
+            LevelManager.sharedInstance.GenerateInitialBlocks();
+            controller.StartGame();
         }else if(newGameState == GameState.gameOver){
 
         }
