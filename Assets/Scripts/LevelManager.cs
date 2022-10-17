@@ -48,10 +48,16 @@ void Awake(){
   currentLevelBlocks.Add(block);
     }
     public void RemoveLevelBlock(){
+        LevelBlock oldBlock= currentLevelBlocks[0];
+        currentLevelBlocks.Remove(oldBlock);
+        Destroy(oldBlock.gameObject);
 
     }
     public void RemoveAllLevelBlocks(){
-
+        while (currentLevelBlocks.Count>0)
+        {
+            RemoveLevelBlock();
+        }
     }
     public void GenerateInitialBlocks(){
         for (int i=0; i<2;i++){

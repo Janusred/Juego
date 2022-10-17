@@ -16,6 +16,10 @@ public class ExitZone : MonoBehaviour
         
     }
     void OnTriggerEnter2D(Collider2D collision){
-        Debug.log("Destruir lo anterior");
+    if(collision.tag == "Palyer"){
+        LevelManager.sharedInstance.AddLevelBlock();
+        LevelManager.sharedInstance.RemoveLevelBlock();
     }
+    }
+
 }
