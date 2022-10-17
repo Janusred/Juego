@@ -50,12 +50,18 @@ SetGameState(GameState.gameOver);
         if(newGameState == GameState.menu){
 
         }else if(newGameState == GameState.inGame){
+           LevelManager.sharedInstance.RemoveAllLevelBlocks();
             LevelManager.sharedInstance.GenerateInitialBlocks();
             controller.StartGame();
+            Invoke("ReloadLevel",0.1f);
         }else if(newGameState == GameState.gameOver){
 
         }
         this.currentGameState = newGameState;
     } 
+    void ReloadLevel(){
+        LevelManager.sharedInstance.GenerateInitialBlocks();
+            controller.StartGame();
+    }
 
 }
