@@ -19,6 +19,13 @@ public class MenuManager : MonoBehaviour
         public void HideMainMenu(){
             menuCanvas.enabled=false;
         }
+        public void ExitGame(){
+            #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false ;
+            #else
+            Application.Quit();
+            #endif
+        }
     }
 
     // Update is called once per frame
