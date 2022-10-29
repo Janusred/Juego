@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     const string STATE_ALIVE = "isAlive";
     const string STATE_ON_THE_GROUND = "isOnTheGround";
 
+
+    [SerializeField]
     private int heelPoints , manaPoints;
 
     public const int INTIAL_HEALTH =100, INITAL_MANA = 15,
@@ -91,6 +93,7 @@ public class PlayerController : MonoBehaviour
       }
       if(GameManager.sharedInstance.currentGameState==GameState.inGame){
         if(IsTouchingTheGround()){
+          GetComponent<AudioSource>().Play();
           rigidBody.AddForce(Vector2.up * jumpForceFactor, ForceMode2D.Impulse);
         }
       }
@@ -124,6 +127,9 @@ return false;
         this.healthPoints += points;
         if(this.healthPoints >= MAX_HEALTH){
           this.healthPoints=MAX_HEALTH;
+        }
+        if(this.healthPoints<=0){
+          Die();
         }
       }
       public void CollectMana(int points){

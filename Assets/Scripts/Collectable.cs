@@ -46,7 +46,8 @@ private void Start(){
         switch (this.type){
             case CollectableType.money:
             GameManager.sharedInstance.collectedObject(this);
-            break;
+            GetComponent<AudioSource>().Play();
+                        break;
             case CollectableType.healthPotion:
                 player.GetComponent<PlayerController>().CollectHealth(this.value);
             break;
