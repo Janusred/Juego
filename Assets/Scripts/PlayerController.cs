@@ -96,6 +96,11 @@ return false;
 
     }
     public void Die(){
+      float travelledDistance = GetTravelledDistance();
+      float previousMaxDistance = PlayerPrefs.GetFloat("maxscore",0f);
+      if(travelledDistance> previousMaxDistance){
+        PlayerPrefs.SetFloat("maxscore",travelledDistance);
+      }
         this.animator.SetBool(STATE_ALIVE, false);
         GameManager.sharedInstance.GameOver();
       }

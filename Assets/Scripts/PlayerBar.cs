@@ -24,7 +24,7 @@ public Bartype type;
     // Update is called once per frame
     void Update()
     {
-        switch(type){
+        switch(type){ 
             case BarType.healthBar:
             slider.value = GameObject.Find("Player").
             GetComponent<PlayerController>().GetHealth();
