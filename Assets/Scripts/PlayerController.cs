@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
     public const int SUPERJUMP_COST = 5;
     public const float SUPERJUMP_FORCE=1.5f;
+    public float jumpRaycastDitance = 2;
 
     public LayerMask groundMask;
 
@@ -68,7 +69,7 @@ public class PlayerController : MonoBehaviour
        }
        animator.SetBool(STATE_ON_THE_GROUND, IsTouchingTheGround());
 
-       Debug.DrawRay(this.transform.position, Vector2.down*2.0f, Color.red);
+       Debug.DrawRay(this.transform.position, Vector2.down*jumpRaycastDitance , Color.red);
     }
     void FixedUpdate()
     {
@@ -99,7 +100,7 @@ public class PlayerController : MonoBehaviour
     }
     // nos indica si el mono toca el suelo
     bool IsTouchingTheGround(){
-      if(Physics2D.Raycast(this.transform.position, Vector2.down, 2.0f, groundMask)){
+      if(Physics2D.Raycast(this.transform.position, Vector2.down, jumpRaycastDitance , groundMask)){
         //animator.enabled = true;
         GameManager.sharedInstance.currentGameState = GameState.inGame;
 return true;

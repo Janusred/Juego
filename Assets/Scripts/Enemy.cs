@@ -6,6 +6,8 @@ public class Enemy : MonoBehaviour
 {
  public float runningSpeed = 1.5f;
 
+ public int enemyDamage = 10.0f;
+
  Rigidbody2D rigidBody;
 
 public bool facingBody;
@@ -34,5 +36,17 @@ rigidBody = GetComponent<Rigidbody2D>();
         if(GameManager.sharedInstance.currentGameState == GameState.inGame){
             rigidBody.velocity = new Vector2(currentRunningSpeed, rigidBody.velocity.y);
         }
+    }
+    private void OnTriggerEnter2D(Collider2D collision){
+        if(collision.tag == "Coin"){
+            return;
+        }
+        if(collision.tag == "Player"){
+            collision.gameObject.GetComponent<PlayerController>().CollectHealth(-enemyDamage);
+        return;
+        }
+        //Hacemos que el enemigo rote 
+        facingRigth= !facingRigth; 
+
     }
 }
