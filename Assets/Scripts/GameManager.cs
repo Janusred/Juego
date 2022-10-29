@@ -17,6 +17,8 @@ public static GameManager sharedInstance;
 
 private PlayerController controller;
 
+public int collectedObject=0;
+
 void Awake(){
     if(sharedInstance == null)
     {
@@ -63,6 +65,10 @@ SetGameState(GameState.gameOver);
     void ReloadLevel(){
         LevelManager.sharedInstance.GenerateInitialBlocks();
             controller.StartGame();
+    }
+
+    public void collectedObject(Collectable Collectable){
+        collectedObject += Collectable.value;
     }
 
 }

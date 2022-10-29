@@ -18,6 +18,12 @@ public class PlayerController : MonoBehaviour
     const string STATE_ALIVE = "isAlive";
     const string STATE_ON_THE_GROUND = "isOnTheGround";
 
+    private int heelPoints , manaPoints;
+
+    public const int INTIAL_HEALTH =100, INITAL_MANA = 15,
+    MAX_HEALTH = 200, MAX_MANA = 30,
+    MIN_HEALTH= 10, MIN_MANA = 0;
+
     public LayerMask groundMask;
 
     void Awake(){
@@ -35,6 +41,9 @@ public class PlayerController : MonoBehaviour
       animator.SetBool(STATE_ALIVE, true);
       animator.SetBool(STATE_ON_THE_GROUND,true);
       Invoke("RestartPosition",0.1f);
+
+      healthPoints = INTIAL_HEALTH;
+      manaPoints =  INITAL_MANA;
       
     }
     void RestartPosition(){
@@ -89,5 +98,20 @@ return false;
     public void Die(){
         this.animator.SetBool(STATE_ALIVE, false);
         GameManager.sharedInstance.GameOver();
+      }
+      public void CollectHealth(int points){
+        this.healthPoints += points;
+        if(this.healthPoints >= MAX_HEALTH){
+          this.healthPoints=MAX_HEALTH;
+        }
+      }
+      public void CollectMana(int points){
+
+      }
+      public int GetHealth(){
+        return healthPoints;
+      }
+      public int GetMana(){
+        return manaPoints;
       }
 }

@@ -41,7 +41,7 @@ private void Awake(){
 
         switch (this.type){
             case CollectableType.money:
-
+            GameManager.sharedInstance.collectedObject(this);
             break;
             case CollectableType.healthPotion:
             break;
