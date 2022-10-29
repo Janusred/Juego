@@ -18,10 +18,14 @@ private CircleCollider2D itemCollider;
 bool hasBeenCollected = false;
 
 public int value = 1;
+GameObject player;
 
 private void Awake(){
     sprite = GetComponent<SprinteRenderer>();
     itemCollider = GetComponent<CircleCollider2D>();
+}
+private void Start(){
+    player = GameObject.Find("Player");
 }
 
 {
@@ -44,8 +48,10 @@ private void Awake(){
             GameManager.sharedInstance.collectedObject(this);
             break;
             case CollectableType.healthPotion:
+                player.GetComponent<PlayerController>().CollectHealth(this.value);
             break;
             case CollectableType.manaPotion:
+                player.GetComponent<PlayerController>().CollectMana(this.value);
             break;
         }
         {
